@@ -55,6 +55,7 @@ body {
 }
 
 .welcome {
+	position: center;
 	background-image: url(../images/theaterwelcome.png);
 	background-repeat: no-repeat;
 	width: 660px;

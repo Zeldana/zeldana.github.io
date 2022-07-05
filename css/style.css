@@ -58,7 +58,7 @@ body {
 	background-image: url(../images/theaterwelcome.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: left;
+	background-position: center;
 	width: 640px;
 	height: 100%;
 	position: fixed;

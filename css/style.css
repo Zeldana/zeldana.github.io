@@ -40,7 +40,7 @@ body {
 	padding: 40px;
 	display: -webkit-box;
 	-webkit-box-pack: start;
-	-webkit-box-align: top;
+	-webkit-box-align: center;
 	-webkit-box-orient: vertical;
 }
 

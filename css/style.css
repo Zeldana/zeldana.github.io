@@ -27,7 +27,7 @@ body {
 	height: 200px;
 	display: -webkit-box;
 	-webkit-box-pack: center;
-	-webkit-box-align: top;
+	-webkit-box-align: center;
 	-webkit-box-orient: vertical;
 }
 

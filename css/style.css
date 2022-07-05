@@ -32,7 +32,7 @@ body {
 }
 
 .info-container {
-	position: top;
+	position: absolute;
 	top: 276px;
 	left: 140px;
 	right: 140px;

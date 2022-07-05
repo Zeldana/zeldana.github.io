@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-	background: -webkit-radial-gradient(center, ellipse cover, #333 0%,#161616 100%);
+	background-image: url(../images/theaterwelcome.png);
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .welcome {
-	background-image: url(../images/theaterwelcome.png);
+	background-image: url(../);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;

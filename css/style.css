@@ -32,15 +32,15 @@ body {
 }
 
 .info-container {
-	position: absolute;
+	position: top;
 	top: 676px;
 	left: 140px;
 	right: 140px;
 	bottom: 120px;
 	padding: 40px;
 	display: -webkit-box;
-	-webkit-box-pack: top;
-	-webkit-box-align: top;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
 	-webkit-box-orient: vertical;
 }
 

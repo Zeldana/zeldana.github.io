@@ -20,7 +20,7 @@ body {
 }
 
 .header-container {
-	position: absolute;
+	position: top;
 	top: 85px;
 	left: 0;
 	right: 0;

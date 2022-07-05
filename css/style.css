@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-	url(../images/theaterwelcome.png)
+	url(../images/theaterwelcome.png);
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 }

@@ -14,7 +14,7 @@ body {
 	background: rgba(255, 255, 255, 0.11);
 }
 body {
-	background: -webkit-radial-gradient(
+	background-image: url(../images/request.png);
 		center,
 		ellipse cover,
 		#242f3a 0%,

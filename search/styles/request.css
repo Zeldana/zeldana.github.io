@@ -11,7 +11,7 @@ body {
 	box-sizing: border-box;
 }
 *::selection {
-	background-image: url(../images/theaterwelcome.png);;
+	background-image: url(../images/theaterwelcome.png);; 
 }
 body {
 	background-image: url(../images/theaterwelcome.png);(

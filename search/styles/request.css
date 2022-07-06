@@ -17,10 +17,7 @@ body {
 	background-image: url(../images/theaterwelcome.png);(
 		center,
 		ellipse cover,
-		#242f3a 0%,
-		#161616 100%
 	);
-	color: white;
 	font-family: "Oswald", sans-serif;
 }
 .content-container {

@@ -1,22 +1,16 @@
 @import "./lib/normalize.css";
-html,
+html, body {
+	overflow: hidden;
+	width: 100%;
+	height: 100%; 
+}
+
 body {
+	background-image: url(../images/theaterwelcome.png);
+	background-repeat: no-repeat;
+	background-position: center;
 	width: 100%;
 	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-* {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-*::selection {
-	background-image: url(../images/theaterwelcome.png);;
-}
-body {
-	background-image: url(../images/theaterwelcome.png);(
-	);
-	font-family: "Oswald", sans-serif;
 }
 .content-container {
 	width: 100%;

@@ -33,11 +33,11 @@ body {
 
 .info-container {
 	position: absolute;
-	top: 637px;
+	top: 700px;
 	left: 140px;
 	right: 140px;
 	bottom: 120px;
-	padding: 36px;
+	padding: 40px;
 	font-size: 35pt;
 	display: -webkit-box;
 	-webkit-box-pack: start;

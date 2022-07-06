@@ -14,7 +14,7 @@ body {
 	background-image: url(../images/theaterwelcome.png);;
 }
 body {
-	background: -webkit-radial-gradient(
+	background-image: url(../images/theaterwelcome.png);(
 		center,
 		ellipse cover,
 		#242f3a 0%,

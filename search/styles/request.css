@@ -4,7 +4,7 @@ html, body {
 	width: 100%;
 	height: 100%; 
 }
-
+{
 body {
 	background-image: url(../images/theaterwelcome.png);
 	background-repeat: no-repeat;
@@ -12,14 +12,6 @@ body {
 	width: 100%;
 	height: 100%;
 }
-.content-container {
-	width: 100%;
-	height: 100%;
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-box-align: center;
-	-webkit-box-pack: center;
-	overflow: auto;
 }
 h1 {
 	font-size: 20pt;

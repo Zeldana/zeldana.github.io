@@ -10,10 +10,7 @@ body {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-*::selection {
-	background: rgba(255, 255, 255, 0.11);
-}
-body {
+{
 	background-image: url(../images/request.jpg);
 	center,
 	ellipse cover,

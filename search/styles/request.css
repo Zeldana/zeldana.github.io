@@ -15,10 +15,10 @@ body {
 }
 body {
 	background-image: url(../images/request.png);
-		center,
-		ellipse cover,
-		#242f3a 0%,
-		#161616 100%
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100%;
 	);
 	color: white;
 	font-family: "Oswald", sans-serif;

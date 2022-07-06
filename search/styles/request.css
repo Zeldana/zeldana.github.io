@@ -15,8 +15,6 @@ body {
 }
 body {
 	background-image: url(../images/theaterwelcome.png);(
-		center,
-		ellipse cover,
 	);
 	font-family: "Oswald", sans-serif;
 }

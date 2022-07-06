@@ -11,7 +11,7 @@ body {
 	box-sizing: border-box;
 }
 *::selection {
-	background: rgba(255, 255, 255, 0.11);
+	background-image: url(../images/theaterwelcome.png);;
 }
 body {
 	background: -webkit-radial-gradient(

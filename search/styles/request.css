@@ -15,8 +15,8 @@ body {
 }
 body {
 	background-image: url(../images/request.jpg);
-			center,
-		ellipse cover,
+	center,
+	ellipse cover,
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 100%;

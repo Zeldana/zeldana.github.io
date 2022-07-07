@@ -56,13 +56,6 @@ body {
 	-webkit-box-orient: vertical;
 }
 
-.welcome {
-	background-image: url(../images/theaterwelcome.png);
-	background-repeat: no-repeat;
-	width: 660px;
-	height: 171px;
-}
-
 .info {
 	font-size: 18pt;
 	padding-bottom: 20px;

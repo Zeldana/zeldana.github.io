@@ -1,98 +1,44 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <!--<script src="js/snow.js"></script>-->
-    <title>Video Player</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="video-js-5.9.2/video-js.min.css" type="text/css">
-    <link href="video-js-5.9.2/video-js.min.css" rel="stylesheet" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js" type="text/javascript"></script>
-    <script src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
-    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-    <script src="https://api.dmcdn.net/all.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="jwplayer-7.1.4/jwplayer.js" type="text/javascript"></script>
-    <script src="video-js-5.9.2/video.min.js"></script>
-    <script src="videojs-flash/videojs-flash.min.js"></script>
-    <script src="js/hls-0.12.4.min.js" type="text/javascript"></script>
-    <script src="js/theater.js" type="text/javascript"></script>
-    <script src="https://developers.video.ibm.com/js/ustream-embedapi.min.js" type="text/javascript"></script>
-    <script src="https://player.vimeo.com/api/player.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        // Loading Twitch's JS breaks things in Awesomium
-        if (navigator.userAgent.indexOf("Awesomium") == -1) {
-            var twitchJS = document.createElement("script");
-            twitchJS.type = "text/javascript"
-            twitchJS.src = "https://player.twitch.tv/js/embed/v1.js"
-
-            document.getElementsByTagName('head')[0].appendChild(twitchJS);
-        }
-    </script>
-    <script src="video-js-5.9.2/video.min.js" type="text/javascript"></script>
-    <script src="video-js-5.9.2/videojs-contrib-hls.min.js" type="text/javascript"></script>
-    <script src="js/base64.js" type="text/javascript"></script>
-    <script src="js/jquery17.min.js" type="text/javascript"></script>
-    <script src="js/theater.js" type="text/javascript"></script>
-    <style type="text/css">
-        a {
-            color: #0078ff;
-        }
-    </style>
+	<title>Cinema Default Page</title>
 </head>
-	<body>
 
-		<!--
-			Landing page for Sin Cinema
+<body>
 
-			This webpage appears during the idle theater state
-			while there are no videos queued to play. 
-		-->
+	<!--
+		Landing page for Garry's Mod Cinema gamemode
+		This webpage appears during the idle theater state
+		while there are no videos queued to play. 
+	-->
 
-		<div id="content" class="welcome-page">
+	<div id="content" class="welcome-page">
 
-			<!-- Centered Background Logo -->
-			<div class="logo-container">
-				<div class="logo"></div>
+		<!-- Curtains -->
+		<div class="right-curtain"></div>
+		<div class="left-curtain"></div>
+		<div class="top-curtain"></div>
+
+		<!-- Welcome header -->
+		<div class="header-container">
+			<div class="welcome"></div>
+		</div>
+
+		<!-- Information -->
+		<div class="info-container">
+
+			<div class="info">To request a video, open the queue by holding down Q and press the 'Request Video' button
 			</div>
-
-			<!-- Welcome header -->
-			<div class="header-container">
-				<div class="welcome"></div>
-			</div>
-
-			<!-- Information -->
-			<div class="info-container">
-
-				<!-- Flash Detection -->
-					<div id="noflash" class="info warning">
-					<script type="text/javascript">
-					var chromeVer = /Chrome\/(\d+)/;
-					var clientIsChromium = chromeVer.exec(navigator.userAgent)[1] > 18;
-					var clientHasFlash = swfobject.hasFlashPlayerVersion("1");
-					var clientHasCodecSupport = document.createElement("video").canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"') == "probably";
-
-					var elem = document.getElementById("missingComponent");
-					if (!clientIsChromium || (!clientHasFlash && !clientHasCodecSupport)) {
-						elem.innerText = "Video Fixes not detected! Most videos will not play properly. Say /fixvideos for instructions on how to fix this.";
-					}
-					</script>
-				</div>
-
-				<div class="info">To request a video, open the queue by holding down Q and clicking Request Video</div>
-				<div class="info">If the videos aren't working do /fixvideos for a tutorial!</div>
-
-			</div>
-
-			<!-- Footer -->
-			<div class="footer-container"></div>
 
 		</div>
 
-		<div id="player-container">
-			<div id="player"></div>
-		</div>
+		<!-- Footer -->
+		<div class="footer-container"></div>
 
-		<script src="https://f.vimeocdn.com/js/froogaloop2.min.js" type="text/javascript"></script>
-		
-	</body>
+	</div>
+
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</body>
+
 </html>

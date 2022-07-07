@@ -7,13 +7,10 @@ html, body {
 }
 
 body {
-	background-image: url(../images/request2.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 1980px;
-	height: 1080px;
+	background: -webkit-radial-gradient(center, ellipse cover, #333 0%,#161616 100%);
+	color: white;
+	font-family: 'Open Sans', sans-serif;
 }
-
 .welcome-page {
 	width: 100%;
 	height: 100%;
